@@ -1,0 +1,20 @@
+{
+  "name": "{{name}}",
+  "version": "1.0.0",
+  "description": "{{description}}",
+  "main": "index.js",
+  "scripts": {
+    "install": "bin/install-module.sh",
+    "build": "ccb template && ccb build",
+    "dev": "bin/open.sh",
+    "cleantemp": "bin/clean-temp.sh"
+  },
+  "keywords": [
+    "cocos",
+    "game"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+  }
+}

@@ -67,3 +67,10 @@ src/.idea/
 
 .vscode/
 /.vscode/
+
+#//////////////////////////
+# yarn & npm
+#//////////////////////////
+yarn.lock
+.yarn-integrity
+package-lock.json
